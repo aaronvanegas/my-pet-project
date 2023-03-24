@@ -1,12 +1,12 @@
-#F4D35E
+/* #F4D35E
 #CBA135
 #FFEC51
 #DFC927
-#F0C808
+#F0C808 */
 
 body{
-    font-family: Arial, sans-serif;
-    color: #F0C808;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFEC51;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -15,11 +15,20 @@ body{
   nav{
     background-color: black;
     height: 2.5rem;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
   }
 
   img{
+    margin: 2rem 0rem 0rem 2rem;
     width: 35rem;
     height: 35rem;
+    border-radius: 100%;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+  }
+  img:hover{
+    margin: 2rem 0rem 0rem 2rem;
+    width: 38rem;
+    height: 38rem;
     border-radius: 100%;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
   }
